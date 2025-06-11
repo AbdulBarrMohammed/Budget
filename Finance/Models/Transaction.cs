@@ -17,7 +17,7 @@ namespace Finance.Models
 
         public int CategoryId { get; set; }
 
-        Category Category { get; set; }
+        public Category Category { get; set; }
 
     }
 }
