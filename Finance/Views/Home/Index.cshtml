@@ -1,4 +1,5 @@
-﻿@model Finance.Models.Transaction
+﻿@model List<Finance.Models.Transaction>
+
 
 
 @{
@@ -14,19 +15,19 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Transactions![0].Title)
+                @Html.DisplayNameFor(model => model![0].Title)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Transactions![0].Amount)
+                @Html.DisplayNameFor(model => model![0].Amount)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Transactions![0].Date)
+                @Html.DisplayNameFor(model => model![0].Date)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.Transactions)
+        @foreach (var item in Model)
         {
             <tr>
                 <td>

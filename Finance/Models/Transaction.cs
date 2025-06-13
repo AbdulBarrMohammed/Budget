@@ -19,7 +19,7 @@ namespace Finance.Models
 
         public Category Category { get; set; }
 
-        public List<Transaction>? Transactions { get; set; }
+        //public List<Transaction>? Transactions { get; set; }
 
     }
 }

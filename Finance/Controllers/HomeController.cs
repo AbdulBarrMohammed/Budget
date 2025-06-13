@@ -1,31 +1,38 @@
+using System;
+using System.Collections.Generic;
 using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Threading.Tasks;
 using Finance.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
-namespace Finance.Controllers;
-
-public class HomeController : Controller
+namespace Finance.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    //[Route("[controller]")]
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
+        private readonly BudgetContext _context;
 
-    public IActionResult Index()
-    {
-        return View();
-    }
+        public HomeController(BudgetContext context)
+        {
+           _context = context;
+        }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        public IActionResult Index()
+        {
+            var transactions = _context.Transactions.Include(t => t.Category).ToList();
+            return View(transactions);
+        }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+
+
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View("Error!");
+        }
     }
 }
