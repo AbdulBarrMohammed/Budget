@@ -22,8 +22,8 @@ namespace Finance.Controllers
 
         public IActionResult Index()
         {
-            var transactions = _context.Transactions.Include(t => t.Category).ToList();
-            return View(transactions);
+            var categories = _context.Categories.Include(t => t.Transactions).ToList();
+            return View(categories);
         }
 
 

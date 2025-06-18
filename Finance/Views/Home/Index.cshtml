@@ -1,4 +1,4 @@
-﻿@model List<Finance.Models.Transaction>
+﻿@model List<Finance.Models.Category>
 
 
 
@@ -11,17 +11,13 @@
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
+
+
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model![0].Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model![0].Amount)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model![0].Date)
+                @Html.DisplayNameFor(model => model![0].Name)
             </th>
             <th></th>
         </tr>
@@ -31,16 +27,7 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Title)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Amount)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Date)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CategoryId)
+                    @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
