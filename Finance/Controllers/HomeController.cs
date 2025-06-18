@@ -37,6 +37,25 @@ namespace Finance.Controllers
             return View(viewModel);
         }
 
+        public IActionResult InsertTransaction(BudgetViewModel model)
+        {
+            var transaction = new Transaction
+            {
+                Id = model.InsertTransaction.Id,
+                Amount = model.InsertTransaction.Amount,
+                Title = model.InsertTransaction.Title,
+                Date = model.InsertTransaction.Date,
+                CategoryId = model.InsertTransaction.CategoryId
+            };
+
+            _context.Add(transaction);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+
+        }
+
+
 
 
 
