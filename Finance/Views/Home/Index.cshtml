@@ -33,10 +33,7 @@
                 </td>
 
                 <td class="transaction-category">
-                    @Html.DisplayFor(modelItem => transaction.Category)
-                </td>
-                <td class="d-none">
-                    @Html.DisplayFor(modelItem => transaction.CategoryId)
+                    @Html.DisplayFor(modelItem => transaction.Category.Name)
                 </td>
                 <td class="buttons-cell">
                     <button type="button" class="btn btn-danger openDeleteTransactionModalBtn">

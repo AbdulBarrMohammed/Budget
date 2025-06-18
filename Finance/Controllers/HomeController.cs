@@ -26,11 +26,13 @@ namespace Finance.Controllers
             //return View(categories);
 
             var transactions = _context.Transactions.ToList();
+            var categories = _context.Categories.ToList();
 
             // Assign view model of transaction to pass to view model
             var viewModel = new BudgetViewModel
             {
-                Transactions = transactions
+                Transactions = transactions,
+                InsertTransaction = new InsertTransactionViewModel { Categories = categories}
             };
             return View(viewModel);
         }
