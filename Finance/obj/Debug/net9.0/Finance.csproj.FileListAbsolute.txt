@@ -153,7 +153,6 @@
 /Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/scopedcss/projectbundle/Finance.bundle.scp.css
 /Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/7m7z7vj2br-b9sayid5wm.gz
 /Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/b1feaowork-61n19gt1b8.gz
-/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xtxxf3hu2r.gz
 /Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/0nsv3v4gqn-bqjiyaj88i.gz
 /Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/8uvqr1q8h4-c2jlpeoesf.gz
 /Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/bhemzs93vn-erw9l3u2r3.gz
@@ -230,3 +229,4 @@
 /Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/Finance.pdb
 /Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/Finance.genruntimeconfig.cache
 /Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/ref/Finance.dll
+/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xlbrfitdd2.gz

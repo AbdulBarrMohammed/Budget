@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ziJrVd3pZVEnkEybt2L2gdt81YTlZHDGEt99p1ts9pE=",
+  "Hash": "Y2KfNYE7r6Bmy+o5fzMvadS872ZHr7+qNKo9CJru2p0=",
   "Source": "Finance",
   "BasePath": "_content/Finance",
   "Mode": "Default",
@@ -437,12 +437,12 @@
       "OriginalItemSpec": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xtxxf3hu2r.gz",
+      "Identity": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xlbrfitdd2.gz",
       "SourceId": "Finance",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Finance",
-      "RelativePath": "js/site#[.{fingerprint=xtxxf3hu2r}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=xlbrfitdd2}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -451,8 +451,8 @@
       "RelatedAsset": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/wwwroot/js/site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pmnrhqz0gl",
-      "Integrity": "YTkfXSHFEnZ6310TKacrOsSM7+9iBIEpAwW6DhmB2Rg=",
+      "Fingerprint": "9sdpmaj4jb",
+      "Integrity": "93/ZwBtZHYS9IBfYVaqoU6TDVIFh+n5rcXH3PXtI6E4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/wwwroot/js/site.js"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "xlbrfitdd2",
+      "Integrity": "hXrG2JLByMEhC5LIPDKUaSk5It8Qb3cBnsDMC3ffVtU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
@@ -3921,12 +3921,12 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xtxxf3hu2r.gz",
+      "AssetFile": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xlbrfitdd2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005263157895"
+          "Quality": "0.007042253521"
         }
       ],
       "ResponseHeaders": [
@@ -3936,15 +3936,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "189"
+          "Value": "141"
         },
         {
           "Name": "ETag",
-          "Value": "\"YTkfXSHFEnZ6310TKacrOsSM7+9iBIEpAwW6DhmB2Rg=\""
+          "Value": "\"93/ZwBtZHYS9IBfYVaqoU6TDVIFh+n5rcXH3PXtI6E4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 01:29:05 GMT"
+          "Value": "Wed, 18 Jun 2025 14:27:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3964,13 +3964,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "W/\"hXrG2JLByMEhC5LIPDKUaSk5It8Qb3cBnsDMC3ffVtU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-hXrG2JLByMEhC5LIPDKUaSk5It8Qb3cBnsDMC3ffVtU="
         }
       ]
     },
@@ -3985,7 +3985,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "153"
         },
         {
           "Name": "Content-Type",
@@ -3993,11 +3993,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"hXrG2JLByMEhC5LIPDKUaSk5It8Qb3cBnsDMC3ffVtU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 01:29:05 GMT"
+          "Value": "Wed, 18 Jun 2025 14:27:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4007,13 +4007,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-hXrG2JLByMEhC5LIPDKUaSk5It8Qb3cBnsDMC3ffVtU="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xtxxf3hu2r.gz",
+      "AssetFile": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xlbrfitdd2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4022,7 +4022,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "189"
+          "Value": "141"
         },
         {
           "Name": "Content-Type",
@@ -4030,11 +4030,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YTkfXSHFEnZ6310TKacrOsSM7+9iBIEpAwW6DhmB2Rg=\""
+          "Value": "\"93/ZwBtZHYS9IBfYVaqoU6TDVIFh+n5rcXH3PXtI6E4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 01:29:05 GMT"
+          "Value": "Wed, 18 Jun 2025 14:27:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4052,18 +4052,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YTkfXSHFEnZ6310TKacrOsSM7+9iBIEpAwW6DhmB2Rg="
+          "Value": "sha256-93/ZwBtZHYS9IBfYVaqoU6TDVIFh+n5rcXH3PXtI6E4="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xtxxf3hu2r.gz",
+      "Route": "js/site.xlbrfitdd2.js",
+      "AssetFile": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xlbrfitdd2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005263157895"
+          "Quality": "0.007042253521"
         }
       ],
       "ResponseHeaders": [
@@ -4073,15 +4073,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "189"
+          "Value": "141"
         },
         {
           "Name": "ETag",
-          "Value": "\"YTkfXSHFEnZ6310TKacrOsSM7+9iBIEpAwW6DhmB2Rg=\""
+          "Value": "\"93/ZwBtZHYS9IBfYVaqoU6TDVIFh+n5rcXH3PXtI6E4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 01:29:05 GMT"
+          "Value": "Wed, 18 Jun 2025 14:27:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4101,13 +4101,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "W/\"hXrG2JLByMEhC5LIPDKUaSk5It8Qb3cBnsDMC3ffVtU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "xlbrfitdd2"
         },
         {
           "Name": "label",
@@ -4115,12 +4115,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-hXrG2JLByMEhC5LIPDKUaSk5It8Qb3cBnsDMC3ffVtU="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
+      "Route": "js/site.xlbrfitdd2.js",
       "AssetFile": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/wwwroot/js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4130,7 +4130,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "153"
         },
         {
           "Name": "Content-Type",
@@ -4138,11 +4138,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"hXrG2JLByMEhC5LIPDKUaSk5It8Qb3cBnsDMC3ffVtU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 01:29:05 GMT"
+          "Value": "Wed, 18 Jun 2025 14:27:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4152,7 +4152,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "xlbrfitdd2"
         },
         {
           "Name": "label",
@@ -4160,13 +4160,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-hXrG2JLByMEhC5LIPDKUaSk5It8Qb3cBnsDMC3ffVtU="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js.gz",
-      "AssetFile": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xtxxf3hu2r.gz",
+      "Route": "js/site.xlbrfitdd2.js.gz",
+      "AssetFile": "/Users/barrmohammed/Desktop/DotnetAcademy/Finance/Finance/obj/Debug/net9.0/compressed/9d35m3rirn-xlbrfitdd2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4175,7 +4175,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "189"
+          "Value": "141"
         },
         {
           "Name": "Content-Type",
@@ -4183,11 +4183,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YTkfXSHFEnZ6310TKacrOsSM7+9iBIEpAwW6DhmB2Rg=\""
+          "Value": "\"93/ZwBtZHYS9IBfYVaqoU6TDVIFh+n5rcXH3PXtI6E4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 01:29:05 GMT"
+          "Value": "Wed, 18 Jun 2025 14:27:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4205,7 +4205,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "xlbrfitdd2"
         },
         {
           "Name": "label",
@@ -4213,7 +4213,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YTkfXSHFEnZ6310TKacrOsSM7+9iBIEpAwW6DhmB2Rg="
+          "Value": "sha256-93/ZwBtZHYS9IBfYVaqoU6TDVIFh+n5rcXH3PXtI6E4="
         }
       ]
     },
