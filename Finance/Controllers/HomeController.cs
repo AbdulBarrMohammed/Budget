@@ -48,15 +48,20 @@ namespace Finance.Controllers
                 CategoryId = model.InsertTransaction.CategoryId
             };
 
-            _context.Add(transaction);
+            if (transaction.Id > 0)
+            {
+                _context.Update(transaction);
+            }
+            else
+            {
+                _context.Add(transaction);
+            }
+
             _context.SaveChanges();
 
             return RedirectToAction("Index");
 
         }
-
-
-
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

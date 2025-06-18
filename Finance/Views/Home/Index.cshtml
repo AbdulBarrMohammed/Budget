@@ -5,6 +5,9 @@
     ViewData["Title"] = "Home Page";
 }
 
+
+
+
 <table id="records" class="table">
     <tbody>
         @foreach (var transaction in Model.Transactions)
@@ -18,7 +21,7 @@
                         @Html.DisplayFor(modelItem => transaction.Date)
                     </div>
                     <br />
-                    <div class="transaction-name">
+                    <div class="transaction-title">
                         @Html.DisplayFor(modelItem => transaction.Title)
                     </div>
                     <br />
@@ -32,7 +35,7 @@
                     </div>
                 </td>
 
-                <td class="transaction-category">
+                <td class="transaction-category" data-category-id="@transaction.Category.Id">
                     @Html.DisplayFor(modelItem => transaction.Category.Name)
                 </td>
                 <td class="buttons-cell">
