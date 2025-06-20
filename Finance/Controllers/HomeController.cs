@@ -63,6 +63,21 @@ namespace Finance.Controllers
 
         }
 
+        public IActionResult DeleteTransaction(int id)
+        {
+
+            var transaction = _context.Transactions.Find(id);
+            if (transaction == null)
+            {
+                return NotFound();
+            }
+            _context.Transactions.Remove(transaction);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
