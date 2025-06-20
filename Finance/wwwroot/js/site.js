@@ -39,3 +39,9 @@ $(".openUpdateTransactionModalBtn").on("click", function () {
     // Show the modal
     $('#addTransactionModal').modal("show");
 });
+
+$(".openDeleteTransactionModalBtn").on("click", function () {
+    var id = $(this).closest('tr').find('td:first').html();
+    $('deleteTransactionForm').append(`<input type="hidden" name="id" value=${id}">`);
+    $("#deleteTransactionModal").modal("show");
+})
